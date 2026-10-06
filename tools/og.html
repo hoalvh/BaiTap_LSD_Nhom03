@@ -1,0 +1,43 @@
+<!doctype html>
+<!-- Khuôn ảnh chia sẻ 1200x630 (assets/og.jpg). Không phải trang của website; dùng để chụp lại khi cần đổi ảnh. -->
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <title>Ảnh chia sẻ</title>
+  <link rel="stylesheet" href="../assets/css/fonts.css">
+  <style>
+    html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; }
+    body { position: relative; background: #F6F1E7; color: #2B2320; font-family: 'Be Vietnam Pro', sans-serif; }
+    .copy { position: absolute; left: 64px; top: 84px; width: 640px; z-index: 2; }
+    .eyebrow { display: flex; align-items: center; gap: 12px; font-size: 19px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #7A1F16; }
+    .eyebrow::before { content: ""; width: 9px; height: 30px; background: #E8B931; border: 2px solid #2B2320; border-radius: 3px; }
+    h1 { display: flex; align-items: flex-end; gap: 16px; margin: 18px 0 26px; font-family: Anton, sans-serif; font-weight: 400; text-transform: uppercase; }
+    .num { font-size: 250px; line-height: .8; color: #7A1F16; text-shadow: 11px 11px 0 #E8B931; letter-spacing: -.02em; }
+    .words { font-size: 54px; line-height: 1.4; letter-spacing: .015em; padding-bottom: 12px; } /* 1.4: dấu nặng "Ộ" dòng trên không chạm dấu "Ộ" dòng dưới */
+    p { margin: 0; font-size: 27px; line-height: 1.45; color: #4A3F3A; }
+    p b { color: #7A1F16; white-space: nowrap; }
+    .tags { margin-top: 22px; font-size: 20px; font-weight: 700; color: #6E625B; letter-spacing: .02em; }
+    .mosaic { position: absolute; right: -90px; top: -70px; width: 560px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; transform: rotate(-7deg); z-index: 1; }
+    .mosaic img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 12px; box-shadow: 0 10px 24px -12px rgba(43, 35, 32, .5); filter: grayscale(1) sepia(.2) contrast(1.05); }
+    .mosaic img:nth-child(3n + 2) { filter: grayscale(1) sepia(1) saturate(3.2) hue-rotate(-28deg) brightness(.82) contrast(1.18); }
+    .fade { position: absolute; top: 0; bottom: 0; left: 560px; width: 180px; background: linear-gradient(90deg, #F6F1E7, rgba(246, 241, 231, 0)); z-index: 1; }
+    .bar { position: absolute; left: 0; right: 0; bottom: 0; height: 16px; background: #7A1F16; z-index: 3; }
+  </style>
+</head>
+<body>
+  <div class="copy">
+    <div class="eyebrow">Lịch sử Đảng Cộng sản Việt Nam · Tư liệu số</div>
+    <h1><span class="num">14</span><span class="words">kỳ Đại hội<br>Đảng Cộng sản<br>Việt Nam</span></h1>
+    <p>Từ <b>13 đại biểu</b> ở Ma Cao (1935) đến <b>1.586 đại biểu</b> ở Hà Nội (2026).</p>
+    <div class="tags">Bối cảnh · Nội dung · Ý nghĩa · Số liệu · Ôn tập</div>
+  </div>
+  <div class="fade"></div>
+  <div class="mosaic">
+    <img src="../assets/img/mini/dh02.jpg" alt=""><img src="../assets/img/mini/dh03.jpg" alt=""><img src="../assets/img/mini/dh05.jpg" alt="">
+    <img src="../assets/img/mini/dh06.jpg" alt=""><img src="../assets/img/mini/dh08.jpg" alt=""><img src="../assets/img/mini/dh09.jpg" alt="">
+    <img src="../assets/img/mini/dh10.jpg" alt=""><img src="../assets/img/mini/dh11.jpg" alt=""><img src="../assets/img/mini/dh12.jpg" alt="">
+    <img src="../assets/img/mini/dh13.jpg" alt=""><img src="../assets/img/mini/dh14.jpg" alt=""><img src="../assets/img/mini/dh07.jpg" alt="">
+  </div>
+  <div class="bar"></div>
+</body>
+</html>
