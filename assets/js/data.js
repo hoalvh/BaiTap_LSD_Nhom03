@@ -1,6 +1,6 @@
 /* Tự động sinh bởi tools/build-data.mjs từ web-data/dai-hoi-dang.md — đừng sửa tay, hãy sửa file .md rồi chạy lại. */
 window.DAI_HOI = {
- "generatedAt": "2026-10-06",
+ "generatedAt": "2026-10-10",
  "source": "web-data/dai-hoi-dang.md",
  "book": "Phùng Thế Anh, Lê Quang Chung và các cộng sự (2025), <em>Lịch sử Đảng Cộng sản Việt Nam</em>, NXB Đại học Quốc gia TP. Hồ Chí Minh.",
  "phases": [
